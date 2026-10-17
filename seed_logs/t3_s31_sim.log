@@ -1,0 +1,88 @@
+[INFO] [launch]: All log files can be found below /home/samip/.ros/log/2026-10-16-20-39-15-131925-LAPTOP-IHDUJR47-74187
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [gazebo-1]: process started with pid [74191]
+[INFO] [robot_state_publisher-2]: process started with pid [74192]
+[INFO] [create-3]: process started with pid [74193]
+[INFO] [parameter_bridge-4]: process started with pid [74195]
+[INFO] [encoder_noise_node-5]: process started with pid [74196]
+[INFO] [waypoint_node-6]: process started with pid [74197]
+[INFO] [rviz2-7]: process started with pid [74198]
+[create-3] [INFO] [1792183160.372724438] [ros_gz_sim]: Requesting list of world names.
+[robot_state_publisher-2] [WARN] [1792183160.395747994] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-2] [INFO] [1792183160.395860103] [robot_state_publisher]: Robot initialized
+[rviz2-7] [INFO] [1792183160.649977218] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-7] [INFO] [1792183160.650191443] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[rviz2-7] [INFO] [1792183160.743731618] [rviz2]: Stereo is NOT SUPPORTED
+[create-3] [INFO] [1792183161.108921170] [ros_gz_sim]: Waiting messages on topic [robot_description].
+[create-3] [INFO] [1792183161.207896171] [ros_gz_sim]: Entity creation successful.
+[INFO] [create-3]: process has finished cleanly [pid 74193]
+[parameter_bridge-4] [INFO] [1792183161.407082939] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792183161.409831289] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/cmd_vel (geometry_msgs/msg/Twist) -> /cmd_vel (gz.msgs.Twist)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792183161.411883890] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/joint_states (gz.msgs.Model) -> /gz/joint_states_raw (sensor_msgs/msg/JointState)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792183161.413620607] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/imu (gz.msgs.IMU) -> /imu (sensor_msgs/msg/Imu)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792183161.415534608] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/overhead_camera/image_raw (gz.msgs.Image) -> /overhead_camera/image_raw (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792183161.416489499] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/overhead_camera/camera_info (gz.msgs.CameraInfo) -> /overhead_camera/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792183161.418257933] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/gz/odom_internal (gz.msgs.Odometry) -> /evaluator/ground_truth_odom (nav_msgs/msg/Odometry)] (Lazy 0)
+[encoder_noise_node-5] [INFO] [1792183161.470328097] [encoder_noise_node]: Encoder noise node ready  (sigma = 0.0020 rad/s per wheel, seed=42).
+[rviz2-7] [INFO] [1792183161.750060094] [rviz2]: Stereo is NOT SUPPORTED
+[waypoint_node-6] [INFO] [1792183168.105774375] [waypoint_node]: Spawned wp_static_0 in Gazebo at (2.38, 1.94).
+[waypoint_node-6] [INFO] [1792183172.700762239] [waypoint_node]: Spawned wp_static_1 in Gazebo at (0.45, 1.88).
+[waypoint_node-6] [INFO] [1792183176.009588026] [waypoint_node]: Spawned wp_static_2 in Gazebo at (1.60, 0.47).
+[waypoint_node-6] [INFO] [1792183179.018433945] [waypoint_node]: Spawned wp_static_3 in Gazebo at (1.44, 1.48).
+[waypoint_node-6] [INFO] [1792183180.657750943] [waypoint_node]: Spawned wp_static_4 in Gazebo at (0.59, 0.68).
+[waypoint_node-6] [INFO] [1792183180.726357869] [waypoint_node]: [Tier 3] Procedural static waypoints spawned visually in Gazebo (seed=31): [(2.377, 1.94), (0.452, 1.883), (1.597, 0.474), (1.436, 1.483), (0.591, 0.684)]. Waypoints must be extracted from /overhead_camera/image_raw.
+[parameter_bridge-4] [INFO] [1792183200.091511028] [ros_gz_bridge]: Passing message from ROS geometry_msgs/msg/Twist to Gazebo gz.msgs.Twist (showing msg only once per type)
+[waypoint_node-6] [INFO] [1792183200.744501080] [waypoint_node]: Robot movement detected (/cmd_vel). Arming dynamic waypoint spawn in 7.0 s.
+[waypoint_node-6] [INFO] [1792183232.546059090] [waypoint_node]: Spawning 2 dynamic waypoints: (2.396, 0.456) and (0.89, 2.389).
+[waypoint_node-6] [INFO] [1792183235.680428590] [waypoint_node]: Spawned wp_dyn_0 in Gazebo at (2.40, 0.46).
+[waypoint_node-6] [INFO] [1792183238.935871180] [waypoint_node]: Spawned wp_dyn_1 in Gazebo at (0.89, 2.39).
+[waypoint_node-6] [INFO] [1792183238.962355337] [waypoint_node]: [Tier 3] Dynamic waypoints spawned in Gazebo visually. Coordinates withheld.
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[robot_state_publisher-2] [INFO] [1792183656.318444639] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[encoder_noise_node-5] Traceback (most recent call last):
+[encoder_noise_node-5]   File "/mnt/c/Users/Samip/sim2real/install/postman_pkg/lib/postman_pkg/encoder_noise_node", line 33, in <module>
+[parameter_bridge-4] [INFO] [1792183656.320096014] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[rviz2-7] [INFO] [1792183656.321723648] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[waypoint_node-6] Traceback (most recent call last):
+[waypoint_node-6]   File "/mnt/c/Users/Samip/sim2real/install/postman_pkg/lib/postman_pkg/waypoint_node", line 33, in <module>
+[encoder_noise_node-5]     sys.exit(load_entry_point('postman-pkg', 'console_scripts', 'encoder_noise_node')())
+[encoder_noise_node-5]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[encoder_noise_node-5]   File "/mnt/c/Users/Samip/sim2real/build/postman_pkg/postman_pkg/encoder_noise_node.py", line 83, in main
+[waypoint_node-6]     sys.exit(load_entry_point('postman-pkg', 'console_scripts', 'waypoint_node')())
+[waypoint_node-6]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[waypoint_node-6]   File "/mnt/c/Users/Samip/sim2real/build/postman_pkg/postman_pkg/waypoint_node.py", line 328, in main
+[waypoint_node-6]     rclpy.spin(WaypointNode())
+[waypoint_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+[waypoint_node-6]     executor.spin_once()
+[waypoint_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 926, in spin_once
+[waypoint_node-6]     self._spin_once_impl(timeout_sec)
+[waypoint_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 907, in _spin_once_impl
+[waypoint_node-6]     handler, entity, node = self.wait_for_ready_callbacks(
+[waypoint_node-6]                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[waypoint_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 877, in wait_for_ready_callbacks
+[waypoint_node-6]     return next(self._cb_iter)
+[waypoint_node-6]            ^^^^^^^^^^^^^^^^^^^
+[waypoint_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 781, in _wait_for_ready_callbacks
+[waypoint_node-6]     wait_set.wait(timeout_nsec)
+[waypoint_node-6] KeyboardInterrupt
+[encoder_noise_node-5]     rclpy.spin(EncoderNoiseNode())
+[encoder_noise_node-5]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+[encoder_noise_node-5]     executor.spin_once()
+[encoder_noise_node-5]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 926, in spin_once
+[encoder_noise_node-5]     self._spin_once_impl(timeout_sec)
+[encoder_noise_node-5]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 907, in _spin_once_impl
+[encoder_noise_node-5]     handler, entity, node = self.wait_for_ready_callbacks(
+[encoder_noise_node-5]                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[encoder_noise_node-5]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 877, in wait_for_ready_callbacks
+[encoder_noise_node-5]     return next(self._cb_iter)
+[encoder_noise_node-5]            ^^^^^^^^^^^^^^^^^^^
+[encoder_noise_node-5]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 750, in _wait_for_ready_callbacks
+[encoder_noise_node-5]     valid_waitables.append(waitable)
+[encoder_noise_node-5] KeyboardInterrupt
+[INFO] [parameter_bridge-4]: process has finished cleanly [pid 74195]
+[INFO] [robot_state_publisher-2]: process has finished cleanly [pid 74192]
+[ERROR] [waypoint_node-6]: process has died [pid 74197, exit code -2, cmd '/mnt/c/Users/Samip/sim2real/install/postman_pkg/lib/postman_pkg/waypoint_node --ros-args --params-file /tmp/launch_params_dm1l4da3'].
+[ERROR] [encoder_noise_node-5]: process has died [pid 74196, exit code -2, cmd '/mnt/c/Users/Samip/sim2real/install/postman_pkg/lib/postman_pkg/encoder_noise_node --ros-args --params-file /tmp/launch_params_vj5oqsex'].
+[INFO] [rviz2-7]: process has finished cleanly [pid 74198]
+[ERROR] [gazebo-1]: process has died [pid 74191, exit code -2, cmd 'ruby /opt/ros/jazzy/opt/gz_tools_vendor/bin/gz sim -r /mnt/c/Users/Samip/sim2real/install/postman_pkg/share/postman_pkg/worlds/arena_obstacles.sdf --force-version 8'].
+[INFO] [launch]: process[gazebo-1] was required: shutting down launched system

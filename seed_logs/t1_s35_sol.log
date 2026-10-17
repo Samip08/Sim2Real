@@ -1,0 +1,38 @@
+[INFO] [launch]: All log files can be found below /home/samip/.ros/log/2026-10-16-15-00-44-177986-LAPTOP-IHDUJR47-51030
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [tier1_node-1]: process started with pid [51036]
+[tier1_node-1] [INFO] [1792162847.547149325] [solution_node]: Sim2Real autonomy core ready (tier=1).
+[tier1_node-1] [INFO] [1792162847.584782325] [solution_node]: diag phase=WAIT pose=(0.00,0.00,0.00) v=0.000 w=0.000 goal=none enc_signs=(None,None) targets=0/5
+[tier1_node-1] [INFO] [1792162847.712105125] [solution_node]: Encoder yaw polarity calibrated: +1
+[tier1_node-1] [INFO] [1792162848.740185243] [solution_node]: Encoder linear polarity calibrated: +1
+[tier1_node-1] [INFO] [1792162855.810258682] [solution_node]: diag phase=NAVIGATE pose=(0.50,0.33,0.63) v=0.240 w=0.004 wp4=(0.92,0.63) err=0.51m enc_signs=(1.0,1.0) targets=0/5
+[tier1_node-1] [INFO] [1792162864.120998444] [solution_node]: diag phase=DWELL_WP pose=(0.84,0.57,0.63) v=0.000 w=0.002 wp4=(0.92,0.63) err=0.10m enc_signs=(1.0,1.0) targets=0/5
+[tier1_node-1] [INFO] [1792162869.164084786] [solution_node]: Waypoint 4 dwell complete at (0.918, 0.628); 1/7 collected.
+[tier1_node-1] [INFO] [1792162872.471575214] [solution_node]: diag phase=NAVIGATE pose=(0.96,0.58,-0.01) v=0.239 w=-0.214 wp2=(2.01,0.48) err=1.05m enc_signs=(1.0,1.0) targets=1/7
+[tier1_node-1] [INFO] [1792162880.612688181] [solution_node]: diag phase=NAVIGATE pose=(1.69,0.51,-0.10) v=0.240 w=0.001 wp2=(2.01,0.48) err=0.32m enc_signs=(1.0,1.0) targets=1/7
+[tier1_node-1] [INFO] [1792162888.925950710] [solution_node]: diag phase=DWELL_WP pose=(1.91,0.49,-0.10) v=0.000 w=-0.001 wp2=(2.01,0.48) err=0.10m enc_signs=(1.0,1.0) targets=1/7
+[tier1_node-1] [INFO] [1792162891.612370644] [solution_node]: Waypoint 2 dwell complete at (2.010, 0.481); 2/7 collected.
+[tier1_node-1] [INFO] [1792162897.161525203] [solution_node]: diag phase=NAVIGATE pose=(2.05,0.69,1.04) v=0.240 w=0.082 wp7=(2.35,1.24) err=0.62m enc_signs=(1.0,1.0) targets=2/7
+[tier1_node-1] [INFO] [1792162905.102640034] [solution_node]: diag phase=DWELL_WP pose=(2.30,1.15,1.08) v=0.000 w=0.004 wp7=(2.35,1.24) err=0.10m enc_signs=(1.0,1.0) targets=2/7
+[tier1_node-1] [INFO] [1792162911.151783659] [solution_node]: Waypoint 7 dwell complete at (2.351, 1.237); 3/7 collected.
+[tier1_node-1] [INFO] [1792162913.603823467] [solution_node]: diag phase=NAVIGATE pose=(2.30,1.15,1.85) v=0.000 w=1.182 wp5=(1.57,1.46) err=0.80m enc_signs=(1.0,1.0) targets=3/7
+[tier1_node-1] [INFO] [1792162921.682180391] [solution_node]: diag phase=NAVIGATE pose=(1.77,1.39,2.78) v=0.192 w=0.007 wp5=(1.57,1.46) err=0.22m enc_signs=(1.0,1.0) targets=3/7
+[tier1_node-1] [INFO] [1792162929.578867814] [solution_node]: diag phase=DWELL_WP pose=(1.67,1.43,2.79) v=0.000 w=-0.001 wp5=(1.57,1.46) err=0.10m enc_signs=(1.0,1.0) targets=3/7
+[tier1_node-1] [INFO] [1792162930.899709118] [solution_node]: Waypoint 5 dwell complete at (1.572, 1.464); 4/7 collected.
+[tier1_node-1] [INFO] [1792162937.236676137] [solution_node]: diag phase=NAVIGATE pose=(1.77,1.63,1.01) v=0.240 w=-0.092 wp1=(2.26,2.34) err=0.87m enc_signs=(1.0,1.0) targets=4/7
+[tier1_node-1] [INFO] [1792162945.504810760] [solution_node]: diag phase=NAVIGATE pose=(2.16,2.20,0.96) v=0.155 w=0.000 wp1=(2.26,2.34) err=0.17m enc_signs=(1.0,1.0) targets=4/7
+[tier1_node-1] [INFO] [1792162953.118093582] [solution_node]: diag phase=DWELL_WP pose=(2.20,2.26,0.97) v=0.000 w=0.002 wp1=(2.26,2.34) err=0.10m enc_signs=(1.0,1.0) targets=4/7
+[tier1_node-1] [INFO] [1792162953.733838884] [solution_node]: Waypoint 1 dwell complete at (2.258, 2.344); 5/7 collected.
+[tier1_node-1] [INFO] [1792162960.697184203] [solution_node]: diag phase=NAVIGATE pose=(1.99,2.31,3.04) v=0.240 w=0.096 wp6=(1.29,2.35) err=0.70m enc_signs=(1.0,1.0) targets=5/7
+[tier1_node-1] [INFO] [1792162969.197174224] [solution_node]: diag phase=NAVIGATE pose=(1.40,2.34,3.09) v=0.075 w=0.000 wp6=(1.29,2.35) err=0.10m enc_signs=(1.0,1.0) targets=5/7
+[tier1_node-1] [INFO] [1792162976.443917341] [solution_node]: Waypoint 6 dwell complete at (1.291, 2.350); 6/7 collected.
+[tier1_node-1] [INFO] [1792162977.960251944] [solution_node]: diag phase=NAVIGATE pose=(1.39,2.34,-2.92) v=0.040 w=0.804 wp3=(0.49,1.79) err=1.05m enc_signs=(1.0,1.0) targets=6/7
+[tier1_node-1] [INFO] [1792162986.793256566] [solution_node]: diag phase=NAVIGATE pose=(0.78,1.98,-2.56) v=0.240 w=0.002 wp3=(0.49,1.79) err=0.35m enc_signs=(1.0,1.0) targets=6/7
+[tier1_node-1] [INFO] [1792162995.626627091] [solution_node]: diag phase=DWELL_WP pose=(0.58,1.84,-2.55) v=0.000 w=0.000 wp3=(0.49,1.79) err=0.10m enc_signs=(1.0,1.0) targets=6/7
+[tier1_node-1] [INFO] [1792162998.738829602] [solution_node]: Waypoint 3 dwell complete at (0.495, 1.789); 7/7 collected.
+[tier1_node-1] [INFO] [1792163004.278653625] [solution_node]: diag phase=NAVIGATE pose=(0.46,1.55,-1.87) v=0.240 w=0.034 goal=(0.02,0.02) err=1.59m enc_signs=(1.0,1.0) targets=7/7
+[tier1_node-1] [INFO] [1792163012.660048267] [solution_node]: diag phase=NAVIGATE pose=(0.26,0.85,-1.85) v=0.240 w=0.000 goal=(0.02,0.02) err=0.86m enc_signs=(1.0,1.0) targets=7/7
+[tier1_node-1] [INFO] [1792163021.011593508] [solution_node]: diag phase=NAVIGATE pose=(0.07,0.17,-1.84) v=0.144 w=-0.029 goal=(0.02,0.02) err=0.16m enc_signs=(1.0,1.0) targets=7/7
+[tier1_node-1] [INFO] [1792163029.521781140] [solution_node]: diag phase=DWELL_HOME pose=(0.03,0.06,-1.86) v=0.000 w=0.001 goal=(0.02,0.02) err=0.04m enc_signs=(1.0,1.0) targets=7/7
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [tier1_node-1]: process has finished cleanly [pid 51036]

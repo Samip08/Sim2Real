@@ -1,0 +1,121 @@
+[INFO] [launch]: All log files can be found below /home/samip/.ros/log/2026-10-17-02-58-32-170571-LAPTOP-IHDUJR47-81469
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [tier3_node-1]: process started with pid [81473]
+[tier3_node-1] [INFO] [1792205916.221332271] [solution_node]: Sim2Real autonomy core ready (tier=3).
+[tier3_node-1] [INFO] [1792205916.980584585] [solution_node]: diag phase=WAIT pose=(0.00,0.00,0.00) v=0.000 w=0.000 goal=none enc_signs=(None,None) targets=0/0
+[tier3_node-1] [INFO] [1792205917.132801101] [solution_node]: perception targets=0/7, obstacles=0/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205917.411140471] [solution_node]: Encoder yaw polarity calibrated: +1
+[tier3_node-1] [INFO] [1792205919.335873117] [solution_node]: Encoder linear polarity calibrated: +1
+[tier3_node-1] [INFO] [1792205919.919251318] [solution_node]: perception targets=5/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205922.783210270] [solution_node]: perception targets=5/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205925.514280812] [solution_node]: diag phase=NAVIGATE pose=(0.29,0.41,1.03) v=0.240 w=0.010 wp2=(0.50,0.76) err=0.41m enc_signs=(1.0,1.0) targets=0/5
+[tier3_node-1] [INFO] [1792205925.565770110] [solution_node]: perception targets=5/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205928.380013111] [solution_node]: perception targets=5/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205931.239946853] [solution_node]: perception targets=5/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205933.778486253] [solution_node]: diag phase=DWELL_WP pose=(0.45,0.68,1.04) v=0.000 w=0.001 wp2=(0.51,0.79) err=0.13m enc_signs=(1.0,1.0) targets=0/5
+[tier3_node-1] [INFO] [1792205933.857028279] [solution_node]: perception targets=5/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205936.493698518] [solution_node]: perception targets=5/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205937.317110230] [solution_node]: Waypoint 2 dwell complete at (0.514, 0.788); 1/5 collected.
+[tier3_node-1] [INFO] [1792205939.719263545] [solution_node]: perception targets=6/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205942.592554278] [solution_node]: diag phase=NAVIGATE pose=(0.48,0.97,1.56) v=0.240 w=0.045 wp1=(0.46,2.27) err=1.30m enc_signs=(1.0,1.0) targets=1/7
+[tier3_node-1] [INFO] [1792205942.840990441] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205945.758602412] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205948.754879381] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205951.429128482] [solution_node]: diag phase=NAVIGATE pose=(0.47,1.70,1.59) v=0.240 w=-0.000 wp1=(0.46,2.27) err=0.57m enc_signs=(1.0,1.0) targets=1/7
+[tier3_node-1] [INFO] [1792205951.746280159] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205954.682554971] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205957.616133050] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205960.364263212] [solution_node]: diag phase=DWELL_WP pose=(0.46,2.17,1.59) v=0.000 w=0.002 wp1=(0.45,2.29) err=0.13m enc_signs=(1.0,1.0) targets=1/7
+[tier3_node-1] [INFO] [1792205960.799683110] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205963.908729806] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205966.352619713] [solution_node]: Waypoint 1 dwell complete at (0.450, 2.295); 2/7 collected.
+[tier3_node-1] [INFO] [1792205966.841142726] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205969.429464189] [solution_node]: diag phase=NAVIGATE pose=(0.46,2.17,0.59) v=0.000 w=-1.182 wp3=(1.41,1.47) err=1.18m enc_signs=(1.0,1.0) targets=2/7
+[tier3_node-1] [INFO] [1792205969.851174529] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205972.884052148] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205975.805470969] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205978.159677272] [solution_node]: diag phase=NAVIGATE pose=(0.52,1.84,-1.47) v=0.240 w=-0.035 wp3=(1.41,1.47) err=0.96m enc_signs=(1.0,1.0) targets=2/7
+[tier3_node-1] [INFO] [1792205978.649417260] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205981.645760020] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205984.759569351] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205987.253886662] [solution_node]: diag phase=NAVIGATE pose=(0.58,1.14,-1.48) v=0.159 w=0.000 wp3=(1.41,1.47) err=0.89m enc_signs=(1.0,1.0) targets=2/7
+[tier3_node-1] [INFO] [1792205987.848664796] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205990.936010309] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205994.001731843] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792205996.350261937] [solution_node]: diag phase=NAVIGATE pose=(0.68,0.88,-0.85) v=0.075 w=0.098 wp3=(1.41,1.47) err=0.94m enc_signs=(1.0,1.0) targets=2/7
+[tier3_node-1] [INFO] [1792205997.078625518] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206000.042854942] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206002.996181949] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206005.220037802] [solution_node]: diag phase=NAVIGATE pose=(0.98,0.80,-0.02) v=0.075 w=0.038 wp3=(1.41,1.47) err=0.80m enc_signs=(1.0,1.0) targets=2/7
+[tier3_node-1] [INFO] [1792206006.014949474] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206008.936910460] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206011.959103515] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206014.089607835] [solution_node]: diag phase=NAVIGATE pose=(1.19,0.95,0.96) v=0.234 w=0.503 wp3=(1.41,1.47) err=0.57m enc_signs=(1.0,1.0) targets=2/7
+[tier3_node-1] [INFO] [1792206014.832618453] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206017.831006568] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206021.018301696] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206023.342237160] [solution_node]: diag phase=DWELL_WP pose=(1.38,1.38,1.23) v=0.000 w=-0.001 wp3=(1.42,1.50) err=0.13m enc_signs=(1.0,1.0) targets=2/7
+[tier3_node-1] [INFO] [1792206024.296655426] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206027.548882894] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206029.818782144] [solution_node]: Waypoint 3 dwell complete at (1.417, 1.501); 3/7 collected.
+[tier3_node-1] [INFO] [1792206030.778847083] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206033.061975419] [solution_node]: diag phase=NAVIGATE pose=(1.43,1.43,0.65) v=0.237 w=-0.333 wp5=(2.29,1.91) err=0.99m enc_signs=(1.0,1.0) targets=3/7
+[tier3_node-1] [INFO] [1792206034.090935699] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206037.099075514] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206040.197360244] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206041.937958632] [solution_node]: diag phase=NAVIGATE pose=(2.06,1.79,0.50) v=0.236 w=0.000 wp5=(2.29,1.91) err=0.27m enc_signs=(1.0,1.0) targets=3/7
+[tier3_node-1] [INFO] [1792206043.004938680] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206046.239389058] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206049.548524217] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206051.543453053] [solution_node]: diag phase=DWELL_WP pose=(2.21,1.87,0.50) v=0.000 w=0.001 wp5=(2.29,1.93) err=0.10m enc_signs=(1.0,1.0) targets=3/7
+[tier3_node-1] [INFO] [1792206053.112971524] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206054.023772758] [solution_node]: Waypoint 5 dwell complete at (2.287, 1.934); 4/7 collected.
+[tier3_node-1] [INFO] [1792206056.087454707] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206059.130278873] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206060.611122220] [solution_node]: diag phase=NAVIGATE pose=(2.31,1.70,-1.12) v=0.240 w=-0.128 wp6=(2.37,0.48) err=1.23m enc_signs=(1.0,1.0) targets=4/7
+[tier3_node-1] [INFO] [1792206062.117804923] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206065.146507299] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206068.119165118] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206069.599547282] [solution_node]: diag phase=NAVIGATE pose=(2.50,1.26,-1.19) v=0.014 w=-0.184 wp6=(2.37,0.48) err=0.80m enc_signs=(1.0,1.0) targets=4/7
+[tier3_node-1] [INFO] [1792206071.220765459] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206074.113965846] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206077.178031752] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206078.485454486] [solution_node]: diag phase=NAVIGATE pose=(2.49,0.80,-1.70) v=0.067 w=-0.008 wp6=(2.36,0.45) err=0.37m enc_signs=(1.0,1.0) targets=4/7
+[tier3_node-1] [INFO] [1792206080.631498577] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206083.613396720] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206086.754394699] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206087.721857480] [solution_node]: diag phase=DWELL_WP pose=(2.42,0.56,-2.03) v=0.000 w=0.000 wp6=(2.38,0.49) err=0.08m enc_signs=(1.0,1.0) targets=4/7
+[tier3_node-1] [INFO] [1792206090.158804823] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206091.214402349] [solution_node]: Waypoint 6 dwell complete at (2.379, 0.491); 5/7 collected.
+[tier3_node-1] [INFO] [1792206093.596814747] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206096.504046503] [solution_node]: diag phase=NAVIGATE pose=(2.21,0.52,-3.03) v=0.240 w=-0.108 wp4=(1.53,0.48) err=0.69m enc_signs=(1.0,1.0) targets=5/7
+[tier3_node-1] [INFO] [1792206096.646436455] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206099.537706796] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206102.584556815] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206105.217932174] [solution_node]: diag phase=NAVIGATE pose=(1.63,0.48,-3.08) v=0.075 w=0.000 wp4=(1.54,0.50) err=0.10m enc_signs=(1.0,1.0) targets=5/7
+[tier3_node-1] [INFO] [1792206105.671846937] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206108.737170013] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206112.135795060] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206112.860179926] [solution_node]: Waypoint 4 dwell complete at (1.540, 0.493); 6/7 collected.
+[tier3_node-1] [INFO] [1792206114.452402086] [solution_node]: diag phase=NAVIGATE pose=(1.55,0.48,3.05) v=0.238 w=-0.268 wp7=(1.02,0.59) err=0.54m enc_signs=(1.0,1.0) targets=6/7
+[tier3_node-1] [INFO] [1792206115.327548467] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206118.416398453] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206121.713524654] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206123.782395182] [solution_node]: diag phase=DWELL_WP pose=(1.11,0.57,2.90) v=0.000 w=0.001 wp7=(1.04,0.62) err=0.09m enc_signs=(1.0,1.0) targets=6/7
+[tier3_node-1] [INFO] [1792206124.874222286] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206128.429016195] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206129.978235078] [solution_node]: Waypoint 7 dwell complete at (1.036, 0.617); 7/7 collected.
+[tier3_node-1] [INFO] [1792206131.603128139] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206133.418070566] [solution_node]: diag phase=NAVIGATE pose=(1.03,0.54,-2.78) v=0.238 w=0.295 goal=(0.02,0.02) err=1.14m enc_signs=(1.0,1.0) targets=7/7
+[tier3_node-1] [INFO] [1792206134.947365051] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206138.677420002] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206142.378952610] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206143.081849809] [solution_node]: diag phase=NAVIGATE pose=(0.39,0.22,-2.65) v=0.240 w=0.000 goal=(0.02,0.02) err=0.42m enc_signs=(1.0,1.0) targets=7/7
+[tier3_node-1] [INFO] [1792206145.813262740] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206149.892195631] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206153.208365944] [solution_node]: diag phase=NAVIGATE pose=(0.06,0.04,-2.65) v=0.036 w=-0.001 goal=(0.02,0.02) err=0.04m enc_signs=(1.0,1.0) targets=7/7
+[tier3_node-1] [INFO] [1792206153.675650245] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206157.453784421] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[tier3_node-1] [INFO] [1792206160.824326190] [solution_node]: perception targets=7/7, obstacles=4/4, axis_calibrated=True, robot_vis_updates=0, robot_residual=n/a, robot_offset=uncalibrated
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [tier3_node-1]: process has finished cleanly [pid 81473]

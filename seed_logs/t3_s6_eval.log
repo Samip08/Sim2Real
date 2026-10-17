@@ -1,0 +1,34 @@
+[INFO] [1792177213.005333265] [evaluator_node]: ====================================================
+[INFO] [1792177213.013924222] [evaluator_node]: Sim2Real Automated Evaluator Active (Simulation Round).
+[INFO] [1792177213.019793984] [evaluator_node]: Evaluator Mode: TIER 3
+[INFO] [1792177213.027803327] [evaluator_node]: Obstacle Collision Detection: ENABLED (4 Tier 3 Obstacles)
+[INFO] [1792177213.034059265] [evaluator_node]: Timer Status: Waiting for solution node execution (/cmd_vel)...
+[INFO] [1792177213.042496636] [evaluator_node]: ====================================================
+[INFO] [1792177213.050571345] [evaluator_node]: [EVALUATOR] Ground-truth targets registered: 5 waypoints.
+[INFO] [1792177223.220599295] [evaluator_node]: >>> [OFFICIAL RUN STARTED] Motion command received from solution node! Clock running from T_sim = 9.34s.
+[INFO] [1792177236.291204600] [evaluator_node]: >>> [WAYPOINT 5/5 COLLECTED] Target (0.65, 0.63) reached! Dwell: 2.00s
+[INFO] [1792177240.734868237] [evaluator_node]: [EVALUATOR] Ground-truth targets registered: 7 waypoints.
+[INFO] [1792177259.223007886] [evaluator_node]: >>> [WAYPOINT 2/7 COLLECTED] Target (0.49, 2.09) reached! Dwell: 2.00s
+[INFO] [1792177305.852782224] [evaluator_node]: >>> [WAYPOINT 4/7 COLLECTED] Target (1.40, 1.46) reached! Dwell: 2.00s
+[INFO] [1792177317.812200474] [evaluator_node]: >>> [WAYPOINT 7/7 COLLECTED] Target (1.89, 1.67) reached! Dwell: 2.00s
+[INFO] [1792177333.532843181] [evaluator_node]: >>> [WAYPOINT 1/7 COLLECTED] Target (2.39, 1.92) reached! Dwell: 2.00s
+[INFO] [1792177361.898686920] [evaluator_node]: >>> [WAYPOINT 6/7 COLLECTED] Target (2.37, 0.57) reached! Dwell: 2.00s
+[INFO] [1792177376.523390700] [evaluator_node]: >>> [WAYPOINT 3/7 COLLECTED] Target (1.63, 0.47) reached! Dwell: 2.00s
+[ERROR] [1792177396.394483918] [evaluator_node]: [COLLISION] Perimeter wall collision at (-0.13, 0.10)
+[INFO] [1792177404.069923240] [evaluator_node]: >>> [HOME REACHED] Returned to origin (0,0) with error 6.2 cm.
+[INFO] [1792177404.083170907] [evaluator_node]: >>> [RUN COMPLETED] Official run finished in 77.84s sim-time!
+
+============================================================
+     SIM2REAL OFFICIAL EVALUATION SCORECARD (SIM ROUND)
+============================================================
+Total Waypoints Spawned : 7
+Waypoints Collected     : 7 / 7
+Dwell Time Constraint   : >= 2.00s stop at each target
+Collisions Detected     : 1
+  - Perimeter wall collision at (-0.13, 0.10)
+Returned to Start (0,0) : YES (PASS)
+Final Position Error    : 6.20 cm
+Total Odometry Distance : 9.21 m
+Run Duration (Sim Time) : 77.84 s
+============================================================
+

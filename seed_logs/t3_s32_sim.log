@@ -1,0 +1,83 @@
+[INFO] [launch]: All log files can be found below /home/samip/.ros/log/2026-10-16-20-47-45-327879-LAPTOP-IHDUJR47-74719
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [gazebo-1]: process started with pid [74725]
+[INFO] [robot_state_publisher-2]: process started with pid [74726]
+[INFO] [create-3]: process started with pid [74728]
+[INFO] [parameter_bridge-4]: process started with pid [74729]
+[INFO] [encoder_noise_node-5]: process started with pid [74730]
+[INFO] [waypoint_node-6]: process started with pid [74731]
+[INFO] [rviz2-7]: process started with pid [74732]
+[create-3] [INFO] [1792183672.667904053] [ros_gz_sim]: Requesting list of world names.
+[robot_state_publisher-2] [WARN] [1792183672.764740520] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-2] [INFO] [1792183672.765178339] [robot_state_publisher]: Robot initialized
+[rviz2-7] [INFO] [1792183673.225133747] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-7] [INFO] [1792183673.225253392] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[rviz2-7] [INFO] [1792183673.384006722] [rviz2]: Stereo is NOT SUPPORTED
+[parameter_bridge-4] [INFO] [1792183673.745003943] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792183673.747763897] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/cmd_vel (geometry_msgs/msg/Twist) -> /cmd_vel (gz.msgs.Twist)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792183673.751102545] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/joint_states (gz.msgs.Model) -> /gz/joint_states_raw (sensor_msgs/msg/JointState)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792183673.753787108] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/imu (gz.msgs.IMU) -> /imu (sensor_msgs/msg/Imu)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792183673.755081881] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/overhead_camera/image_raw (gz.msgs.Image) -> /overhead_camera/image_raw (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792183673.756000073] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/overhead_camera/camera_info (gz.msgs.CameraInfo) -> /overhead_camera/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1792183673.757548950] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/gz/odom_internal (gz.msgs.Odometry) -> /evaluator/ground_truth_odom (nav_msgs/msg/Odometry)] (Lazy 0)
+[create-3] [INFO] [1792183673.987758962] [ros_gz_sim]: Waiting messages on topic [robot_description].
+[create-3] [INFO] [1792183674.085970310] [ros_gz_sim]: Entity creation successful.
+[INFO] [create-3]: process has finished cleanly [pid 74728]
+[encoder_noise_node-5] [INFO] [1792183676.880581569] [encoder_noise_node]: Encoder noise node ready  (sigma = 0.0020 rad/s per wheel, seed=42).
+[rviz2-7] [INFO] [1792183677.424386235] [rviz2]: Stereo is NOT SUPPORTED
+[waypoint_node-6] [WARN] [1792183687.700305391] [waypoint_node]: Subprocess error spawning wp_static_0: Command '['ros2', 'run', 'ros_gz_sim', 'create', '-world', 'arena', '-name', 'wp_static_0', '-x', '2.3970', '-y', '2.0170', '-z', '0.01', '-string', '<sdf version="1.9"><model name="wp_static_0"><static>true</static><link name="l"><visual name="v"><geometry><cylinder><radius>0.15</radius><length>0.02</length></cylinder></geometry><material><ambient>0.05 0.8 0.05 1</ambient><diffuse>0.05 0.8 0.05 1</diffuse></material></visual></link></model></sdf>']' timed out after 5 seconds
+[waypoint_node-6] [WARN] [1792183692.869962834] [waypoint_node]: Subprocess error spawning wp_static_1: Command '['ros2', 'run', 'ros_gz_sim', 'create', '-world', 'arena', '-name', 'wp_static_1', '-x', '0.4740', '-y', '2.3590', '-z', '0.01', '-string', '<sdf version="1.9"><model name="wp_static_1"><static>true</static><link name="l"><visual name="v"><geometry><cylinder><radius>0.15</radius><length>0.02</length></cylinder></geometry><material><ambient>0.05 0.8 0.05 1</ambient><diffuse>0.05 0.8 0.05 1</diffuse></material></visual></link></model></sdf>']' timed out after 5 seconds
+[waypoint_node-6] [INFO] [1792183700.458824011] [waypoint_node]: Spawned wp_static_2 in Gazebo at (1.59, 0.53).
+[waypoint_node-6] [WARN] [1792183705.673508915] [waypoint_node]: Subprocess error spawning wp_static_3: Command '['ros2', 'run', 'ros_gz_sim', 'create', '-world', 'arena', '-name', 'wp_static_3', '-x', '1.4440', '-y', '1.5400', '-z', '0.01', '-string', '<sdf version="1.9"><model name="wp_static_3"><static>true</static><link name="l"><visual name="v"><geometry><cylinder><radius>0.15</radius><length>0.02</length></cylinder></geometry><material><ambient>0.05 0.8 0.05 1</ambient><diffuse>0.05 0.8 0.05 1</diffuse></material></visual></link></model></sdf>']' timed out after 5 seconds
+[waypoint_node-6] [WARN] [1792183710.848625569] [waypoint_node]: Subprocess error spawning wp_static_4: Command '['ros2', 'run', 'ros_gz_sim', 'create', '-world', 'arena', '-name', 'wp_static_4', '-x', '0.5190', '-y', '0.7370', '-z', '0.01', '-string', '<sdf version="1.9"><model name="wp_static_4"><static>true</static><link name="l"><visual name="v"><geometry><cylinder><radius>0.15</radius><length>0.02</length></cylinder></geometry><material><ambient>0.05 0.8 0.05 1</ambient><diffuse>0.05 0.8 0.05 1</diffuse></material></visual></link></model></sdf>']' timed out after 5 seconds
+[waypoint_node-6] [INFO] [1792183711.108927253] [waypoint_node]: [Tier 3] Procedural static waypoints spawned visually in Gazebo (seed=32): [(2.397, 2.017), (0.474, 2.359), (1.591, 0.525), (1.444, 1.54), (0.519, 0.737)]. Waypoints must be extracted from /overhead_camera/image_raw.
+[parameter_bridge-4] [INFO] [1792183740.119287440] [ros_gz_bridge]: Passing message from ROS geometry_msgs/msg/Twist to Gazebo gz.msgs.Twist (showing msg only once per type)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[encoder_noise_node-5] Traceback (most recent call last):
+[encoder_noise_node-5]   File "/mnt/c/Users/Samip/sim2real/install/postman_pkg/lib/postman_pkg/encoder_noise_node", line 33, in <module>
+[waypoint_node-6] Traceback (most recent call last):
+[waypoint_node-6]   File "/mnt/c/Users/Samip/sim2real/install/postman_pkg/lib/postman_pkg/waypoint_node", line 33, in <module>
+[rviz2-7] [INFO] [1792185221.576182503] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-2] [INFO] [1792185221.579351037] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-4] [INFO] [1792185221.580809187] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[encoder_noise_node-5]     sys.exit(load_entry_point('postman-pkg', 'console_scripts', 'encoder_noise_node')())
+[encoder_noise_node-5]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[encoder_noise_node-5]   File "/mnt/c/Users/Samip/sim2real/build/postman_pkg/postman_pkg/encoder_noise_node.py", line 83, in main
+[waypoint_node-6]     sys.exit(load_entry_point('postman-pkg', 'console_scripts', 'waypoint_node')())
+[waypoint_node-6]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[waypoint_node-6]   File "/mnt/c/Users/Samip/sim2real/build/postman_pkg/postman_pkg/waypoint_node.py", line 328, in main
+[encoder_noise_node-5]     rclpy.spin(EncoderNoiseNode())
+[encoder_noise_node-5]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+[encoder_noise_node-5]     executor.spin_once()
+[encoder_noise_node-5]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 926, in spin_once
+[encoder_noise_node-5]     self._spin_once_impl(timeout_sec)
+[encoder_noise_node-5]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 907, in _spin_once_impl
+[encoder_noise_node-5]     handler, entity, node = self.wait_for_ready_callbacks(
+[encoder_noise_node-5]                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[encoder_noise_node-5]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 877, in wait_for_ready_callbacks
+[encoder_noise_node-5]     return next(self._cb_iter)
+[encoder_noise_node-5]            ^^^^^^^^^^^^^^^^^^^
+[encoder_noise_node-5]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 781, in _wait_for_ready_callbacks
+[encoder_noise_node-5]     wait_set.wait(timeout_nsec)
+[encoder_noise_node-5] KeyboardInterrupt
+[waypoint_node-6]     rclpy.spin(WaypointNode())
+[waypoint_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+[waypoint_node-6]     executor.spin_once()
+[waypoint_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 926, in spin_once
+[waypoint_node-6]     self._spin_once_impl(timeout_sec)
+[waypoint_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 907, in _spin_once_impl
+[waypoint_node-6]     handler, entity, node = self.wait_for_ready_callbacks(
+[waypoint_node-6]                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[waypoint_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 877, in wait_for_ready_callbacks
+[waypoint_node-6]     return next(self._cb_iter)
+[waypoint_node-6]            ^^^^^^^^^^^^^^^^^^^
+[waypoint_node-6]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 781, in _wait_for_ready_callbacks
+[waypoint_node-6]     wait_set.wait(timeout_nsec)
+[waypoint_node-6] KeyboardInterrupt
+[INFO] [robot_state_publisher-2]: process has finished cleanly [pid 74726]
+[INFO] [parameter_bridge-4]: process has finished cleanly [pid 74729]
+[ERROR] [encoder_noise_node-5]: process has died [pid 74730, exit code -2, cmd '/mnt/c/Users/Samip/sim2real/install/postman_pkg/lib/postman_pkg/encoder_noise_node --ros-args --params-file /tmp/launch_params_89_14027'].
+[ERROR] [rviz2-7]: process has died [pid 74732, exit code -11, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /mnt/c/Users/Samip/sim2real/install/postman_pkg/share/postman_pkg/config/postman.rviz --ros-args --params-file /tmp/launch_params_n2mgc41d'].
+[ERROR] [waypoint_node-6]: process has died [pid 74731, exit code -2, cmd '/mnt/c/Users/Samip/sim2real/install/postman_pkg/lib/postman_pkg/waypoint_node --ros-args --params-file /tmp/launch_params_zan2f_2f'].
+[ERROR] [gazebo-1]: process has died [pid 74725, exit code -2, cmd 'ruby /opt/ros/jazzy/opt/gz_tools_vendor/bin/gz sim -r /mnt/c/Users/Samip/sim2real/install/postman_pkg/share/postman_pkg/worlds/arena_obstacles.sdf --force-version 8'].
+[INFO] [launch]: process[gazebo-1] was required: shutting down launched system
