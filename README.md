@@ -68,14 +68,3 @@ ros2 launch postman_solution solution.launch.py tier:=1
 
 Replace `tier:=1` with `2` or `3` for the other tiers. Source ROS 2 and `install/setup.bash` in every terminal.
 
-## Seed Sweep
-
-`run_seeds.py` runs the simulator, evaluator and solution for many seeds in sequence. Run from the workspace root after sourcing:
-
-```bash
-python3 run_seeds.py --tier 1
-python3 run_seeds.py --tier 2 --start 10 --end 20
-python3 run_seeds.py --tier 3 --seeds 42,456,7
-```
-
-Results are written to `seed_results_tier<N>.csv`. Per-seed logs are written to `seed_logs/`.
