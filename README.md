@@ -1,3 +1,8 @@
+> ## 🎥 **[Watch the Demo](https://drive.google.com/file/d/1HD4kX3E88NXtezg3EDZHFyh9k9SEE223/view?usp=sharing)**
+> **Demo video:** https://drive.google.com/file/d/1HD4kX3E88NXtezg3EDZHFyh9k9SEE223/view?usp=sharing
+
+---
+
 # Sim2Real Robotics Hackathon - Simulation Round
 
 ## Repository Structure
