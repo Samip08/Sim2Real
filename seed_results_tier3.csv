@@ -1,3 +1,0 @@
-seed,status,collected,collisions,home,home_err_cm,coll_at
-42,completed,7/7,1,YES,7.21,"Perimeter wall collision (-0.01,-0.13)"
-456,completed,7/7,1,YES,8.61,"Perimeter wall collision (0.06,-0.13)"
