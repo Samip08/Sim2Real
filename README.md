@@ -25,7 +25,6 @@
 │       ├── setup.cfg
 │       └── setup.py
 ├── README.md
-└── run_seeds.py                     # Batch seed sweep
 ```
 
 The files evaluated are `solution.launch.py`, `solution_node.py`, `tier1_node.py`, `tier2_node.py` and `tier3_node.py`.
