@@ -1,5 +1,5 @@
-> ## 🎥 **[Watch the Demo](https://drive.google.com/file/d/1HD4kX3E88NXtezg3EDZHFyh9k9SEE223/view?usp=sharing)**
-> **Demo video:** https://drive.google.com/file/d/1HD4kX3E88NXtezg3EDZHFyh9k9SEE223/view?usp=sharing
+> ## 🎥 **[Watch the Demo]
+Demo video for the run is available in the demo section of the repository.
 
 ---
 
@@ -24,7 +24,10 @@
 │       ├── package.xml
 │       ├── setup.cfg
 │       └── setup.py
+├── demo
+│       ├── DEMO
 ├── README.md
+
 ```
 
 The files evaluated are `solution.launch.py`, `solution_node.py`, `tier1_node.py`, `tier2_node.py` and `tier3_node.py`.
